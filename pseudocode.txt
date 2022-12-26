@@ -1,0 +1,13 @@
+pseudocode
+influncer O(n)
+1. take each data field in row[1] and assign it to the key of the dict users
+2. append row[0] to the list to its key in row[1]
+3. find the length of each list and assign it to the key in the dict followers
+4. sort dict followers by values reversly
+5. print the number of keys entered
+
+suggestions O(n)
+1.iterate over users keys with variables i 
+2.remove the common values in list of values of user and list of values of i
+3.if i in list of values of user skip
+4.else append i to suggestions
